@@ -19,7 +19,7 @@ item1.push(parseInt(document.getElementById("item-1-price").textContent));
 item2.push(parseInt(document.getElementById("item-2-price").textContent));
 item3.push(parseInt(document.getElementById("item-3-price").textContent));
 
-var subtotalvalue = document.getElementById("sub-total-value"  );
+var subtotalvalue = document.getElementById("sub-total-value");
 var discountvalue = document.getElementById("discount-value");
 var vatvalue = document.getElementById("VAT-value");
 var totalvalue = document.getElementById("total-value");
@@ -45,7 +45,7 @@ var cashier = {
   }
 };
 
-subtotalvalue.textContent = "$" + (cashier.ringUp().toPrecision(4));
-discountvalue.textContent = "$" + cashier.calcDisc().toPrecision(3);
-vatvalue.textContent = "$" + cashier.calcVat().toPrecision(4);
-totalvalue.textContent = "$" + cashier.calcTotal().toPrecision(5);
+subtotalvalue.textContent = "$" + (cashier.ringUp().toFixed(2));
+discountvalue.textContent = "$" + cashier.calcDisc().toFixed(2);
+vatvalue.textContent = "$" + cashier.calcVat().toFixed(2);
+totalvalue.textContent = "$" + cashier.calcTotal().toFixed(2);
