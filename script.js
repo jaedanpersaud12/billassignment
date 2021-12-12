@@ -49,3 +49,8 @@ subtotalvalue.textContent = "$" + (cashier.ringUp().toFixed(2));
 discountvalue.textContent = "$" + cashier.calcDisc().toFixed(2);
 vatvalue.textContent = "$" + cashier.calcVat().toFixed(2);
 totalvalue.textContent = "$" + cashier.calcTotal().toFixed(2);
+
+
+item1[1].textContent = "$" + item1[1].textContent;
+item2[1].textContent = "$" + item2[1].textContent;
+item3[1].textContent = "$" + item3[1].textContent;
