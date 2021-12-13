@@ -27,6 +27,7 @@ var totalvalue = document.getElementById("total-value");
 var cashier = {
   vatRate: 0.125,
   discountRate: 0.05,
+ 
   ringUp: function() {
     var subtotal = item1[1] + item2[1] + item3[1];
     return subtotal;
