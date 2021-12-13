@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\cryptowallet"
+		},
+		{
+			"path": "..\\madlbs-assignment"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\tictactoe"
+		}
+	],
+	"settings": {}
+}
